@@ -93,6 +93,47 @@ namespace CSharpLesson {
 			foreach(gamer gmr in gamers) {
 				Console.WriteLine("{0}'s favorite number is {1}", gmr.name, gmr.favnbr);
 			}
+			//Console.Write("Enter a number from 1 to 10:");
+			//string response = Console.ReadLine();
+			//Console.WriteLine("The number you chose was " + response);
+
+			//Console.Write("Enter 100, 200, or 300: ");
+			//string ans2 = Console.ReadLine();
+			//int x1 = int.Parse(ans2);
+			//int x = 100;
+			//string color = ("red");
+			//if(x1 == 100 && color == "red") {
+			//	Console.WriteLine("X is equal to 100");
+			//if(x1==100 && color == "yellow") { 
+			//}
+			//} else if(x1 == 200) {
+			//	Console.WriteLine("X is equal to 200");
+			//} 
+			//else if(x1==300) { 
+			//	Console.WriteLine("X is equal to 300");
+			//}
+			//else {
+			//	Console.WriteLine("X is not equal to 100, 200, 300");
+			//}
+
+			int idx = 0;
+			while(idx < 50) {
+				if(idx % 2 == 0 && idx % 3 == 0 && idx % 7 == 0) {
+					Console.WriteLine("The index is {0} is divisible by 2, 3, and 7", idx);
+					//}
+					//if(idx % 3 == 0) {
+					//	Console.WriteLine("The index is {0} is divisible by 3", idx);
+					//}
+					//if(idx % 7 == 0) {
+					//	Console.WriteLine("The index is {0} is divisible by 7");
+				}
+				idx++;
+
+				string strarr[];
+				strarr[1] = "a";
+				strarr[2] = "a";
+			}
+
 		}
 	}
 }
